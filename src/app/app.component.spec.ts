@@ -16,11 +16,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'todoList'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('todoList');
-  });
+
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
